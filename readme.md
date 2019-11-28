@@ -19,7 +19,7 @@ $ source env/bin/activate
 $ pip install -r ./backend/requirements.txt
 
 # 마이그레이트 
-$ python ./backend/manage.py makemigrations
+$ python ./backend/manage.py makemigrations todo
 $ python ./backend/manage.py migrate
 
 # 프론트 엔드 설치
